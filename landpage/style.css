@@ -1,0 +1,57 @@
+
+body {
+    background: url(https://i.ibb.co/TM5nrS8/image.jpg) no-repeat center/cover;
+    font-family: 'Cinzel', serif;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    margin-top: 25  %;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #2C2E2FE5;
+    margin: 0;
+}
+
+span {
+    color: #DB2777;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 4px;
+
+}
+a {
+    text-decoration: none;
+    color: #151718;
+    font-size: 20px;
+    gap: 8px;
+    padding: 16px 32px;
+}
+
+.travel {
+    background-color: #DB2777;
+    border-radius: 80px;
+    color: #FFFFFF;
+}
