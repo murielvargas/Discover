@@ -1,7 +1,10 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     background: url(https://i.ibb.co/TM5nrS8/image.jpg) no-repeat center/cover;
-    font-family: 'Cinzel', serif;
     height: 100vh;
     overflow: hidden;
 
@@ -13,12 +16,13 @@ div {
     justify-content: center;
     align-items: center;
     gap: 72px;
-    margin-top: 25  %;
+    font-family: 'Cinzel', serif;
+    height: 700px;
+   
 }
 
 h1 {
     font-size: 64px;
-    margin: 0;
 }
 
 p {
