@@ -7,11 +7,19 @@
 
 body{
     background-color: var(--body-bg-color);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  margin: 0;
 }
 
 div .info-profile {
-  display: flex;
-  flex-direction: column;
   color: var(--text-color);
   width: 30px;
 }
